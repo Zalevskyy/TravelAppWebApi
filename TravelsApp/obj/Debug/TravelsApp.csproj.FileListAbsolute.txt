@@ -91,3 +91,17 @@ c:\users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\Trave
 C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp\bin\System.Web.Cors.dll
 C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp\bin\System.Web.Http.Cors.dll
 C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp\bin\System.Web.Http.Cors.xml
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp\bin\TravelsApp.BLL.dll
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp\bin\TravelsApp.DAL.dll
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp\bin\TravelsApp.BLL.pdb
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp\bin\TravelsApp.DAL.pdb
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp\bin\Microsoft.Owin.Cors.dll
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp\bin\Ninject.dll
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp\bin\Ninject.Web.Common.dll
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp\bin\Ninject.Web.Common.WebHost.dll
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp\bin\Ninject.Web.Mvc.dll
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp\bin\Microsoft.Owin.Cors.xml
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp\bin\Ninject.xml
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp\bin\Ninject.Web.Common.xml
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp\bin\Ninject.Web.Common.WebHost.xml
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp\bin\Ninject.Web.Mvc.xml

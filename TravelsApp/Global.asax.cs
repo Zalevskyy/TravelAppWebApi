@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Ninject;
+using Ninject.Modules;
+using Ninject.Web.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -8,6 +11,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using TravelsApp.Models;
+using TravelsApp.Util;
 
 namespace TravelsApp
 {
@@ -21,6 +25,11 @@ namespace TravelsApp
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            // внедрение зависимостей
+            NinjectModule unitOfWorkModule = new UnitOfWorkModule();
+
+            var kernel = new StandardKernel(unitOfWorkModule);
+            DependencyResolver.SetResolver(new NinjectDependencyResolver(kernel));
         }
     }
 }

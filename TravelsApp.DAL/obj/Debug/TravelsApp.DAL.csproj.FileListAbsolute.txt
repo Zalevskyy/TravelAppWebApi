@@ -1,0 +1,10 @@
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp.DAL\obj\Debug\TravelsApp.DAL.csprojResolveAssemblyReference.cache
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp.DAL\bin\Debug\TravelsApp.DAL.dll.config
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp.DAL\bin\Debug\TravelsApp.DAL.dll
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp.DAL\bin\Debug\TravelsApp.DAL.pdb
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp.DAL\bin\Debug\EntityFramework.dll
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp.DAL\bin\Debug\EntityFramework.xml
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp.DAL\obj\Debug\TravelsApp.DAL.dll
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp.DAL\obj\Debug\TravelsApp.DAL.pdb

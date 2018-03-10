@@ -1,0 +1,9 @@
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp.BLL\bin\Debug\TravelsApp.BLL.dll
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp.BLL\bin\Debug\TravelsApp.BLL.pdb
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp.BLL\obj\Debug\TravelsApp.BLL.dll
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp.BLL\obj\Debug\TravelsApp.BLL.pdb
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp.BLL\bin\Debug\TravelsApp.DAL.dll
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp.BLL\bin\Debug\EntityFramework.dll
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp.BLL\bin\Debug\TravelsApp.DAL.pdb
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp.BLL\bin\Debug\EntityFramework.xml
+C:\Users\lv270669zia\documents\visual studio 2015\Projects\Epam.TravelsApp\TravelsApp.BLL\obj\Debug\TravelsApp.BLL.csprojResolveAssemblyReference.cache
