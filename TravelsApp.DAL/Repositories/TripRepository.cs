@@ -10,7 +10,7 @@ using TravelsApp.DAL.Interfaces;
 
 namespace TravelsApp.DAL.Repositories
 {
-    class TripRepository : IRepository<Trip>
+    public class TripRepository : IRepository<Trip>
     {
         private TravelsContext db;
 

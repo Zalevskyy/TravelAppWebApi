@@ -3,15 +3,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using TravelsApp.DAL.Interfaces;
+using TravelsApp.BLL.Interfaces;
+using TravelsApp.BLL.Services;
 
 namespace TravelsApp.Util
 {
-    public class UnitOfWorkModule : NinjectModule
+    public class TravelServiceModule : NinjectModule
     {
         public override void Load()
         {
-            Bind<IUnitOfWork>().To<IUnitOfWork>();
+            Bind<ITravelService>().To<TravelService>();
         }
     }
 }

@@ -10,7 +10,7 @@ using TravelsApp.DAL.Interfaces;
 
 namespace TravelsApp.DAL.Repositories
 {
-    class CommentRepository : IRepository<Comment>
+    public class CommentRepository : IRepository<Comment>
     {
         private TravelsContext db;
 

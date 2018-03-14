@@ -10,6 +10,7 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using TravelsApp.BLL.Util;
 using TravelsApp.Models;
 using TravelsApp.Util;
 
@@ -25,10 +26,10 @@ namespace TravelsApp
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            // внедрение зависимостей
-            NinjectModule unitOfWorkModule = new UnitOfWorkModule();
 
-            var kernel = new StandardKernel(unitOfWorkModule);
+            NinjectModule unitOfWorkModule = new Util.TravelServiceModule();
+            NinjectModule travelService = new BLL.Util.UnitOfWorkModule();
+            var kernel = new StandardKernel(unitOfWorkModule, travelService);
             DependencyResolver.SetResolver(new NinjectDependencyResolver(kernel));
         }
     }

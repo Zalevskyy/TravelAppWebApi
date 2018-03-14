@@ -321,23 +321,22 @@ namespace TravelsApp.Controllers
         // POST api/Account/Register
         [AllowAnonymous]
         [Route("Register")]
-        public async Task<IHttpActionResult> Register(RegisterBindingModel model)
+        public async Task<IdentityResult> Register(RegisterBindingModel model)
         {
+            IdentityResult result = new IdentityResult();
+            
             if (!ModelState.IsValid)
             {
-                return BadRequest(ModelState);
+                return result;
             }
 
             var user = new ApplicationUser() { UserName = model.Email, Email = model.Email };
 
-            IdentityResult result = await UserManager.CreateAsync(user, model.Password);
+            result = await UserManager.CreateAsync(user, model.Password);
 
-            if (!result.Succeeded)
-            {
-                return GetErrorResult(result);
-            }
+       
             await UserManager.AddToRoleAsync(user.Id, "user");
-            return Ok();
+            return result;
         }
 
         // POST api/Account/RegisterExternal

@@ -10,7 +10,7 @@ using TravelsApp.DAL.Interfaces;
 
 namespace TravelsApp.DAL.Repositories
 {
-    class UnitOfWork : IUnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
         private TravelsContext db = new TravelsContext();
         private CityRepository cityRepository;
